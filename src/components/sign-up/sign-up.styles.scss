@@ -1,0 +1,20 @@
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    padding: 10px;
+    margin: 0;
+
+    @media screen and (max-width: 800px) {
+        margin: auto;
+    }
+
+    .title {
+        margin: 10px 0;
+    }
+
+    .link {
+        font-weight: 700;
+        color: #1d6ceb;
+    }
+}
